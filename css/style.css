@@ -1,0 +1,19 @@
+body {  padding-top: 40px; } /* 40px to make the container go all the way to the bottom of the topbar */
+header {  }
+footer { text-align: center; padding: 30px 0; color: lightgrey;}
+
+#presentation .thumbnail { float:left; margin-right: 15px; }
+
+.experience { margin-bottom: 20px; }
+.experience h4 small { color: #FF6000; }
+.experience .project { font-weight: bold; color: #333; }
+.experience .duration {  }
+.experience .description { cursor: pointer; }
+.experience .functionalContext { }
+.experience .methodologicalContext { display: none; }
+.experience .technicalContext { display: none; }
+.experience .activities { display: none; border: 1px solid #E1E1E8; margin-bottom: 10px; padding: 8px; background-color: #F1F1F1; border-radius: 5px; }
+.experience .activities ul { margin: 0; margin-left: 25px; }
+.experience .tags { background: url('../img/tag_orange.png') no-repeat 0 3px; }
+.experience .tags ul { list-style-type: none; margin:0; padding-left: 20px; color: #999; }
+.experience .tags li { display: inline; margin: 10px 0;  }
